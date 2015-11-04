@@ -11,21 +11,16 @@
 # -----------------------------------------
 # Put all downloaded files in the same directory as this Dockerfile
 # Run: 
-#      $ sudo docker build -t gibaholms/weblogic-base-domain:10.3.6 . 
+#      $ sudo docker build -t celfocus/weblogic-base-domain:11g . 
 #
-# AUTHOR
-# -----------------------------------------
-# Gilberto Holms <gibaholms85@gmail.com>
-# https://gibaholms.wordpress.com/
-# -----------------------------------------
 
 # Pull base image
 # ---------------
-FROM gibaholms/weblogic:10.3.6
+FROM celfocus/weblogic:11g
 
 # Maintainer
 # ----------
-MAINTAINER Gilberto Holms <gibaholms85@gmail.com>
+MAINTAINER Pedro Melo Pereira <pedro.melo.pereira@celfocus.com>
 
 # WLS Configuration
 # -------------------------------
