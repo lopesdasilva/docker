@@ -57,3 +57,6 @@ shared_servers=4
 ###########################################
 undo_management=AUTO
 undo_tablespace=UNDOTBS1
+
+###########################################
+processes=300
